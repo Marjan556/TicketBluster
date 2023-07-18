@@ -3,6 +3,7 @@ const user = require('../../../pkg/user');
 const jwt = require('jsonwebtoken');
 const config = require('../../../pkg/config');
 
+// тест коментар
 const create = async (req, res) => {    
     try {
         // 1. провери дали двете лозинки се еднакви
